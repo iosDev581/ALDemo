@@ -1,0 +1,11 @@
+# 忽略所有 .a 结尾的文件
+*.a
+# 但 lib.a 除外
+!lib.a
+/TODO
+# 忽略 build/ 目录下的所有文件
+build/
+doc/*.txt
+# ignore all .txt files in the doc/ directory
+doc/**/*.txt
+ALDemo.xcodeproj/xcuserdata/
