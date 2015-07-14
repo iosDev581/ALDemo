@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SimpleCellViewController.h"
 
 @interface ViewController ()
 {
@@ -21,6 +22,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    self.view.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
+//    
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+    [self setTitle:@"Home"];
     
     _staticModeBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     _staticModeBtn.translatesAutoresizingMaskIntoConstraints = NO;
@@ -37,6 +42,7 @@
     [_dynamicModeBtn setBackgroundColor:[UIColor lightGrayColor]];
     [self.view addSubview:_dynamicModeBtn];
     [_dynamicModeBtn addTarget:self action:@selector(dynamicModeBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view setNeedsUpdateConstraints];
 }
 
 
@@ -96,11 +102,16 @@
     
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+}
 
 #pragma mark - 按钮点击
 - (void)staticModeBtnClick
 {
-    
+    SimpleCellViewController *simpleVc = [[SimpleCellViewController alloc] init];
+    [self.navigationController pushViewController:simpleVc animated:YES];
 }
 
 - (void)dynamicModeBtnClick
