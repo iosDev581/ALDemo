@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fL-Er-7A0"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="AgD-Th-oBF">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -22,12 +22,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bcy-uE-Dui" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="466" y="109"/>
+            <point key="canvasLocation" x="126" y="-133"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="zQR-db-h3N">
             <objects>
                 <navigationController id="avQ-8D-TBk" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NfK-9A-sjh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -38,7 +39,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w2e-hb-dZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-181" y="109"/>
+            <point key="canvasLocation" x="-220" y="-133"/>
         </scene>
     </scenes>
 </document>

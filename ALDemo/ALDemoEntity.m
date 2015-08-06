@@ -12,8 +12,8 @@
 
 + (NSArray *)fakeEntities
 {
-    NSMutableArray *tempArr = [NSMutableArray arrayWithCapacity:18];
-    for (int i = 0; i < 18; i++) {
+    NSMutableArray *tempArr = [NSMutableArray arrayWithCapacity:3];
+    for (int i = 0; i < 3; i++) {
         [tempArr addObject:[ALDemoEntity fakeEntity]];
     }
     return [NSArray arrayWithArray:tempArr];

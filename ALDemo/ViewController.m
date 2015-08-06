@@ -22,8 +22,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    self.view.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
-//    
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [self setTitle:@"Home"];
     
@@ -107,7 +105,9 @@
     [super viewDidAppear:animated];
 }
 
+
 #pragma mark - 按钮点击
+
 - (void)staticModeBtnClick
 {
     SimpleCellViewController *simpleVc = [[SimpleCellViewController alloc] init];

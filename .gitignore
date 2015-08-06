@@ -8,4 +8,6 @@ build/
 doc/*.txt
 # ignore all .txt files in the doc/ directory
 doc/**/*.txt
-ALDemo.xcodeproj/xcuserdata/
+ALDemo.xcodeproj
+.DS_Store
+
