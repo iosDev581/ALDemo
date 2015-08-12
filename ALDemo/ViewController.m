@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "SimpleCellViewController.h"
 #import "NibCellViewController.h"
+#import "DyViewControllerByCode.h"
 
 @interface ViewController ()
 {
@@ -119,7 +120,8 @@
 
 - (void)dynamicModeBtnClick
 {
-    
+    DyViewControllerByCode *simpleVc = [[DyViewControllerByCode alloc] init];
+    [self.navigationController pushViewController:simpleVc animated:YES];
 }
 
 @end

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ALDemoEntity.h"
 
 @interface DyTableViewCellByCode : UITableViewCell
+
+- (void)setupData:(ALDemoEntity *)dataEntity;
 
 @end

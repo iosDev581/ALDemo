@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface ALDemoEntity : NSObject
 
@@ -20,6 +21,10 @@
 @property (nonatomic, strong) NSString *fUserFaceUrl;
 @property (nonatomic, strong) NSString *fUserFaceThumbUrl;
 @property (nonatomic, strong) NSString *carLogoUrlStr;
+@property (strong, nonatomic) NSString *title;
+@property (strong, nonatomic) NSString *content;
+
+@property (strong, nonatomic) UIImage *avatar;
 
 + (NSArray *)fakeEntities;
 
