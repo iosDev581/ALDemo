@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SimpleCellViewController.h"
+#import "NibCellViewController.h"
 
 @interface ViewController ()
 {
@@ -110,8 +111,10 @@
 
 - (void)staticModeBtnClick
 {
-    SimpleCellViewController *simpleVc = [[SimpleCellViewController alloc] init];
+    NibCellViewController *simpleVc = [[NibCellViewController alloc] init];
     [self.navigationController pushViewController:simpleVc animated:YES];
+//    SimpleCellViewController *simpleVc = [[SimpleCellViewController alloc] init];
+//    [self.navigationController pushViewController:simpleVc animated:YES];
 }
 
 - (void)dynamicModeBtnClick

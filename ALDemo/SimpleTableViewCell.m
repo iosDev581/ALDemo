@@ -86,7 +86,9 @@
     [_titleLabel setTextAlignment:NSTextAlignmentLeft];
     [_titleLabel setTextColor:[UIColor blackColor]];
     _titleLabel.backgroundColor = [UIColor colorWithRed:0 green:0 blue:1 alpha:0.1];
-    _titleLabel.preferredMaxLayoutWidth = 280;
+//    _titleLabel.preferredMaxLayoutWidth = 200;
+//    [_titleLabel setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
+//    [_titleLabel setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
     
     _contentLabel = [[RWLabel alloc] init];
     _contentLabel.translatesAutoresizingMaskIntoConstraints = NO;
@@ -95,7 +97,7 @@
     [_contentLabel setTextAlignment:NSTextAlignmentLeft];
     [_contentLabel setTextColor:[UIColor darkGrayColor]];
     _contentLabel.backgroundColor = [UIColor colorWithRed:1 green:0 blue:0 alpha:0.1];
-    _contentLabel.preferredMaxLayoutWidth = 280;
+//    _contentLabel.preferredMaxLayoutWidth = 280;
     
     self.contentView.backgroundColor = [UIColor colorWithRed:0 green:1 blue:0 alpha:0.1];
     

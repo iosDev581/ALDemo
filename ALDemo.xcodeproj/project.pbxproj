@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60580CC11B7AF084003B13CD /* NibCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60580CBF1B7AF084003B13CD /* NibCellViewController.m */; };
+		60580CC21B7AF084003B13CD /* NibCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60580CC01B7AF084003B13CD /* NibCellViewController.xib */; };
+		60580CF81B7B25DC003B13CD /* NibTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60580CF61B7B25DC003B13CD /* NibTableViewCell.m */; };
+		60580CF91B7B25DC003B13CD /* NibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60580CF71B7B25DC003B13CD /* NibTableViewCell.xib */; };
+		60580CFD1B7B30B3003B13CD /* DyTableViewCellByCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 60580CFC1B7B30B3003B13CD /* DyTableViewCellByCode.m */; };
+		60580D001B7B30D0003B13CD /* DyViewControllerByCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 60580CFF1B7B30D0003B13CD /* DyViewControllerByCode.m */; };
+		60580D041B7B3445003B13CD /* TestEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 60580D031B7B3445003B13CD /* TestEntity.m */; };
 		60B8AAB21B54B05B007E4D3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B8AAB11B54B05B007E4D3F /* main.m */; };
 		60B8AAB51B54B05B007E4D3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B8AAB41B54B05B007E4D3F /* AppDelegate.m */; };
 		60B8AAB81B54B05B007E4D3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B8AAB71B54B05B007E4D3F /* ViewController.m */; };
@@ -31,6 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60580CBE1B7AF084003B13CD /* NibCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NibCellViewController.h; sourceTree = "<group>"; };
+		60580CBF1B7AF084003B13CD /* NibCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NibCellViewController.m; sourceTree = "<group>"; };
+		60580CC01B7AF084003B13CD /* NibCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibCellViewController.xib; sourceTree = "<group>"; };
+		60580CF51B7B25DC003B13CD /* NibTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NibTableViewCell.h; sourceTree = "<group>"; };
+		60580CF61B7B25DC003B13CD /* NibTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NibTableViewCell.m; sourceTree = "<group>"; };
+		60580CF71B7B25DC003B13CD /* NibTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibTableViewCell.xib; sourceTree = "<group>"; };
+		60580CFB1B7B30B3003B13CD /* DyTableViewCellByCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DyTableViewCellByCode.h; sourceTree = "<group>"; };
+		60580CFC1B7B30B3003B13CD /* DyTableViewCellByCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DyTableViewCellByCode.m; sourceTree = "<group>"; };
+		60580CFE1B7B30D0003B13CD /* DyViewControllerByCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DyViewControllerByCode.h; sourceTree = "<group>"; };
+		60580CFF1B7B30D0003B13CD /* DyViewControllerByCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DyViewControllerByCode.m; sourceTree = "<group>"; };
+		60580D021B7B3445003B13CD /* TestEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestEntity.h; sourceTree = "<group>"; };
+		60580D031B7B3445003B13CD /* TestEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestEntity.m; sourceTree = "<group>"; };
 		60B8AAAC1B54B05B007E4D3F /* ALDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B8AAB01B54B05B007E4D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60B8AAB11B54B05B007E4D3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,6 +91,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60580CFA1B7B2AB6003B13CD /* nib */ = {
+			isa = PBXGroup;
+			children = (
+				60580CBE1B7AF084003B13CD /* NibCellViewController.h */,
+				60580CBF1B7AF084003B13CD /* NibCellViewController.m */,
+				60580CC01B7AF084003B13CD /* NibCellViewController.xib */,
+				60580CF51B7B25DC003B13CD /* NibTableViewCell.h */,
+				60580CF61B7B25DC003B13CD /* NibTableViewCell.m */,
+				60580CF71B7B25DC003B13CD /* NibTableViewCell.xib */,
+				60580D021B7B3445003B13CD /* TestEntity.h */,
+				60580D031B7B3445003B13CD /* TestEntity.m */,
+			);
+			name = nib;
+			sourceTree = "<group>";
+		};
+		60580D011B7B30D6003B13CD /* code */ = {
+			isa = PBXGroup;
+			children = (
+				60580CFB1B7B30B3003B13CD /* DyTableViewCellByCode.h */,
+				60580CFC1B7B30B3003B13CD /* DyTableViewCellByCode.m */,
+				60580CFE1B7B30D0003B13CD /* DyViewControllerByCode.h */,
+				60580CFF1B7B30D0003B13CD /* DyViewControllerByCode.m */,
+			);
+			name = code;
+			sourceTree = "<group>";
+		};
 		60B8AAA31B54B05B007E4D3F = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +145,10 @@
 				60D9C1691B733F7D0036D30B /* Main.storyboard */,
 				60D9C16A1B733F7D0036D30B /* SimpleCellViewController.h */,
 				60D9C16B1B733F7D0036D30B /* SimpleCellViewController.m */,
+				60580CFA1B7B2AB6003B13CD /* nib */,
 				60D9C16C1B733F7D0036D30B /* SimpleTableViewCell.h */,
 				60D9C16D1B733F7D0036D30B /* SimpleTableViewCell.m */,
+				60580D011B7B30D6003B13CD /* code */,
 				60B8AAB31B54B05B007E4D3F /* AppDelegate.h */,
 				60B8AAB41B54B05B007E4D3F /* AppDelegate.m */,
 				60B8AAB61B54B05B007E4D3F /* ViewController.h */,
@@ -221,6 +268,8 @@
 			files = (
 				60B8AAC01B54B05B007E4D3F /* LaunchScreen.xib in Resources */,
 				60B8AABD1B54B05B007E4D3F /* Images.xcassets in Resources */,
+				60580CF91B7B25DC003B13CD /* NibTableViewCell.xib in Resources */,
+				60580CC21B7AF084003B13CD /* NibCellViewController.xib in Resources */,
 				60D9C16F1B733F7D0036D30B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,13 +288,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60580D041B7B3445003B13CD /* TestEntity.m in Sources */,
+				60580CFD1B7B30B3003B13CD /* DyTableViewCellByCode.m in Sources */,
 				60D9C1701B733F7D0036D30B /* SimpleCellViewController.m in Sources */,
 				60D9C1711B733F7D0036D30B /* SimpleTableViewCell.m in Sources */,
+				60580CC11B7AF084003B13CD /* NibCellViewController.m in Sources */,
 				60D9C16E1B733F7D0036D30B /* ALDemoEntity.m in Sources */,
 				60B8AAB81B54B05B007E4D3F /* ViewController.m in Sources */,
 				60B8AAB51B54B05B007E4D3F /* AppDelegate.m in Sources */,
 				60D9C1841B7360EB0036D30B /* RWLabel.m in Sources */,
+				60580CF81B7B25DC003B13CD /* NibTableViewCell.m in Sources */,
 				60B8AAB21B54B05B007E4D3F /* main.m in Sources */,
+				60580D001B7B30D0003B13CD /* DyViewControllerByCode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
